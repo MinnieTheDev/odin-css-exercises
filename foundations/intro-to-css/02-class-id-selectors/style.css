@@ -1,0 +1,18 @@
+.pinkie {
+    background-color: rgb(253, 150, 166);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.big {
+    font-size: 24px;
+}
+
+#bluey {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+#hulk {
+    background-color: rgb(150, 250, 150);
+    font-weight: 700;
+}
