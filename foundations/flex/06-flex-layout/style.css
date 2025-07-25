@@ -18,7 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 10px;
+  padding: 8px 16px;
 }
 
 input {
@@ -36,13 +36,15 @@ a {
 ul {
   padding-left: 0;
   list-style-type: none;
+  display: flex;
+  margin: 0; /* not only do lists give you left-padding, it also gives you margin*/
+  gap: 16px; /* gap is between list items so does not need to go under header & footer */
 }
 
 .header, 
-.footer, .left-links, .right-links {
+.footer {
   display: flex;
-  padding: 5px 10px;
-  gap: 12px;
+  padding: 16px;
   justify-content: space-between;
 }
 
@@ -50,15 +52,14 @@ ul {
   display: flex; 
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 15px;
-}
-
-.header, .content {
-  flex: 1 1 auto;
+  flex: 1; /*header and footer don't need to grow, they need to stay*/
 }
 
 .footer {
   background-color: #eeeeee;
-  height: 45px;
-  align-items: center;
+  /* height: 45px;
+  align-items: center; */
+  /*I did not need to worry about heigh, it looked tall due to the default margin applied to ul & ol*/
 }
