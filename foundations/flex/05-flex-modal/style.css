@@ -21,8 +21,9 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  justify-content: center;
   gap: 16px;
-  padding: 20px;
+  padding: 16px;
 }
 
 .icon {
@@ -47,6 +48,12 @@ body {
 .header {
   font-size: 20px;
   font-weight: bold;
+}
+
+.warning-message {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .close-button {
