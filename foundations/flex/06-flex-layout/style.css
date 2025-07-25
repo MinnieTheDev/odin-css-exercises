@@ -39,16 +39,11 @@ ul {
 }
 
 .header, 
-.footer, 
-.left-links, 
-.right-links {
+.footer, .left-links, .right-links {
   display: flex;
   padding: 5px 10px;
-  gap: 10px;
-}
-
-.left-links {
-  margin-right: auto;
+  gap: 12px;
+  justify-content: space-between;
 }
 
 .content {
@@ -63,7 +58,7 @@ ul {
 }
 
 .footer {
-  background-color: rgb(233, 233, 233);
+  background-color: #eeeeee;
   height: 45px;
   align-items: center;
 }
