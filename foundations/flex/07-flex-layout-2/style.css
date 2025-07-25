@@ -24,40 +24,43 @@ body {
   align-content: center;
 }
 
+.content {
+  display: flex;
+  flex: 1;
+}
+
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
   flex-shrink: 0;
   font-size: 24px;
+  padding: 16px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 48px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  max-width: 200px;
-}
-
-.content {
-  display: flex;
-  flex: 1;
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 48px;
+  max-width: 300px;
+  padding: 16px;
 }
 
 ul {
-  padding-left: 16px;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
 li {
-  margin: 10px 5px;
+  margin-bottom: 16px;
 }
 
 a {
