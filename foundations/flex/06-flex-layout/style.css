@@ -34,3 +34,12 @@ ul {
   padding-left: 0;
   list-style-type: none;
 }
+
+.header, .footer, .left-links, .right-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links, .right-links {
+  gap: 10px;
+}
