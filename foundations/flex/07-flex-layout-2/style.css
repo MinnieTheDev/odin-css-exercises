@@ -10,19 +10,18 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
-  font-size: 25px;
-  font-weight: 800;
+  font-size: 32px;
+  font-weight: 900;
   align-content: center;
-  padding-left: 10px;
+  padding-left: 16px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  align-content: center;
 }
 
 .sidebar {
